@@ -71,7 +71,7 @@ setup_git()
 	echo "Cloning repositories..."
 	echo
 	
-	git clone $AVNET_BDF_REPO
+	git clone -b dev-k24-proto $AVNET_BDF_REPO 
 	git clone $AVNET_HDL_REPO
 	git clone $AVNET_PETALINUX_REPO
 	git clone $AVNET_META_AVNET_REPO
